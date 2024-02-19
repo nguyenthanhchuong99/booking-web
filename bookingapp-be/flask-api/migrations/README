@@ -1,0 +1,12 @@
+Single-database configuration for Flask.
+
+step 1:Initialize Flask App
+Make sure your Flask application is properly configured to connect to the database. 
+Update the application configuration (config.py) with your database credentials and settings.
+step 2:Perform Migration
+$ flask db upgrade
+step 3: if you want to create a new version migration
+$ flask db migrate -m "status"
+step 4:
+$ flask db upgrade
+

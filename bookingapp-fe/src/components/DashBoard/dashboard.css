@@ -1,0 +1,21 @@
+.list-total .ant-space-item {
+  border-radius: 50px;
+  font-size: 30px;
+  padding: 8px;
+}
+
+.card-total {
+  display: flex;
+  margin-left: 40px;
+}
+.total-detail .ant-statistic-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+.custom-icon {
+  border-radius: 20px;
+  font-size: 24px;
+  padding: 8px;
+  margin-right: 50px;
+}

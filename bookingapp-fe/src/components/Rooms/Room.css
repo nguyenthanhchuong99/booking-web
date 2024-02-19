@@ -1,0 +1,179 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.search {
+  margin-bottom: 20px;
+  justify-content: space-between;
+  column-gap: 20px;
+  width: 100%;
+  margin-bottom: 6%;
+}
+
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  color: #ff0000;
+}
+
+.list {
+  width: 100%;
+  padding-left: 100px;
+  height: auto;
+}
+
+.room-card {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #dadada;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.listItem .room-card {
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+.room-action {
+  border-bottom: 2px solid #dadada;
+  border-radius: 1rem;
+}
+
+.edit {
+  margin-bottom: 10px;
+}
+
+.editClick {
+  text-align: center;
+}
+
+.input {
+  padding: 10px 20px;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal-title {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-left: 1.5rem;
+}
+
+.text-content {
+  font-size: 1.2rem;
+}
+
+.btnClick {
+  margin-top: 16px;
+  margin-right: 1rem;
+}
+.modal-title Title {
+  font-size: 1.5rem;
+}
+
+.customBtn {
+  background-color: #ff0000;
+  color: white;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  .card {
+    max-width: 100%;
+  }
+}
+
+.action-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.action-btn .button-left {
+  margin-right: 10%;
+}
+.room-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.room-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.room-form .ant-form-item-label {
+  display: flex;
+  align-items: center;
+}
+
+.room-form .ant-form-item-label > label {
+  margin-bottom: 0;
+}
+
+.room-form .ant-form-item-control {
+  flex-grow: 1;
+}
+
+.form-item-input {
+  margin-left: 1rem;
+  max-width: 250px;
+}
+
+.modal-subtitle {
+  margin-bottom: 10px;
+}
+
+.modal-extra {
+  display: flex;
+  align-items: center;
+}
+
+.modal-extra-text {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.modal-extra-button {
+  margin-top: 16px;
+}
+
+.room-info-title {
+  cursor: pointer;
+}
+
+.ant-result .ant-typography {
+  font-size: 1.2rem;
+}

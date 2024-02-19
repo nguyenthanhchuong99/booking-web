@@ -1,0 +1,30 @@
+.search {
+  margin-bottom: 20px;
+  justify-content: space-between;
+  column-gap: 20px;
+  width: 100%;
+}
+.search .ant-space-item:first-child {
+  width: 100%;
+}
+.btn-modal {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+}
+
+.form-info {
+  max-width: 600px;
+}
+.footer-modal {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-form-item-explain-error {
+  display: flex;
+  align-items: start;
+}
+.ant-form-item-control-input-content {
+  display: flex;
+}
