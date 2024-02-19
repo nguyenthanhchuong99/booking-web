@@ -1,1 +1,1 @@
-# I build this project that include reactjs, mongodb, redis, schemaform support multi layout, multi themes
+# The project includes a front-end and back-end to build a website that allows users to schedule meetings.
